@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: color-mix( blue 50%, white 35%);
+    color: #fff;
+    text-align: center;
+}
+.btn{
+    padding: 0.4rem 0.8rem;
+    border: 0.02rem solid #000;
+    border-radius: 0.6rem;
+    margin: 1rem 0;
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+.btn:active{
+    scale: 0.8;
+}
+.preto{
+    background-color: #000;
+    color: #fff;
+}
+.branco{
+    background-color: #fff;
+    color: #000;
+}
